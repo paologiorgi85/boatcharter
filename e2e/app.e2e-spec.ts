@@ -1,10 +1,10 @@
-import { BoatcharterPage } from './app.po';
+import { IAskAtTheConfPage } from './app.po';
 
-describe('boatcharter App', () => {
-  let page: BoatcharterPage;
+describe('i-ask-at-the-conf App', () => {
+  let page: IAskAtTheConfPage;
 
   beforeEach(() => {
-    page = new BoatcharterPage();
+    page = new IAskAtTheConfPage();
   });
 
   it('should display welcome message', done => {

@@ -1,6 +1,6 @@
 import { browser, by, element } from 'protractor';
 
-export class BoatcharterPage {
+export class IAskAtTheConfPage {
   navigateTo() {
     return browser.get('/');
   }
